@@ -1,0 +1,97 @@
+name: futsal_client_front
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Navigator
+  go_router: ^9.0.3
+
+  # Json Annotation
+  json_annotation: ^4.8.0
+
+  # REST Api
+  dio: ^5.2.1+1
+  retrofit: ^4.0.1
+  logger: ^1.4.0
+
+  # Secure Storage
+  flutter_secure_storage: ^8.0.0
+
+  # Local Storage
+  universal_html: ^2.2.3
+
+  # dotenv
+  flutter_dotenv: ^5.1.0
+
+  # DI
+  flutter_riverpod: ^2.3.6
+
+  # Internationalization
+  intl: ^0.18.1
+
+  # Calender
+  table_calendar: ^3.0.9
+
+  # Time Builder
+  timer_builder: ^2.0.0
+
+  # URL launcher
+  url_launcher: ^6.1.12
+
+  # Validators
+  validators:
+
+  # Responsive
+  flutter_screenutil: ^5.9.0
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # REST Api
+  build_runner: ^2.4.6
+  retrofit_generator: ^6.0.0+3
+  json_serializable: ^6.6.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - .env
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
